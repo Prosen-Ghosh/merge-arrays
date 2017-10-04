@@ -1,6 +1,6 @@
 {
   "name": "merge-arrays",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A JavaScript Package For Merging multiple arrays.",
   "main": "merge.js",
   "directories": {
