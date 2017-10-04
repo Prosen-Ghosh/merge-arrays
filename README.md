@@ -21,12 +21,12 @@ A JavaScript Package For Merging multiple arrays.
 
 #### For Development
 ```js
-<script src=""></script>
+<script src="https://rawgit.com/Prosen-Ghosh/merge-arrays/master/merge.js"></script>
 ```
 
 #### For Production
 ```js
-<script src=""></script>
+<script src="https://cdn.rawgit.com/Prosen-Ghosh/merge-arrays/20ab5a80/merge.js"></script>
 ```
 
 ## Usage
