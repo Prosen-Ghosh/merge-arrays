@@ -1,6 +1,6 @@
 const merge = (function(){
     'use strict';
-    const fn = function(arr){
+    const fn = function(){
         let len = arguments.length,
             res = [];
         if(len < 2)throw new Error('expect at least 2 argument');
