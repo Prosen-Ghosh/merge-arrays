@@ -1,0 +1,33 @@
+{
+  "name": "merge-arrays",
+  "version": "1.0.0",
+  "description": "A JavaScript Package For Merging multiple arrays.",
+  "main": "merge.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "readme": "node ./node_modules/.bin/node-readme"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prosen-Ghosh/merge-arrays.git"
+  },
+  "keywords": [
+    "merge",
+    "array",
+    "multiple"
+  ],
+  "author": "Prosen Ghosh <prosenghosh25@gmail.com> (https://bd.linkedin.com/in/prosen-ghosh-baba9aa8)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Prosen-Ghosh/merge-arrays/issues"
+  },
+  "homepage": "https://github.com/Prosen-Ghosh/merge-arrays#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.0",
+    "node-readme": "^0.1.9"
+  }
+}
