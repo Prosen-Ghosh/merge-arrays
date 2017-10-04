@@ -26,7 +26,7 @@ A JavaScript Package For Merging multiple arrays.
 
 #### For Production
 ```js
-<script src="https://cdn.rawgit.com/Prosen-Ghosh/merge-arrays/20ab5a80/merge.js"></script>
+<script src="https://cdn.rawgit.com/Prosen-Ghosh/merge-arrays/11d3ef5d/merge.js"></script>
 ```
 
 ## Usage
