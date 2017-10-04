@@ -47,11 +47,17 @@ merge([1],[2],[3,4],[5],[6,7,8],[9],[10,11]);
 merge(["foo","bar"],["baz","bob"]);
 //=> [ 'foo', 'bar', 'baz', 'bob' ]
 
+merge([1,2,3],[{a : 1}],["bob","foo"],[[100,101],["baz","tim"]]);
+//=> [ 1, 2, 3, { a: 1 }, 'bob', 'foo', [ 100, 101 ], [ 'baz', 'tim' ] ]
+
 merge([]);
 //=> Error: expect at least 2 argument
 
 merge([],{});
-//=> TypeError: expets array got object
+//=> TypeError: expets array arguments got object
+
+merge([],function(){});
+//=> TypeError: expets array arguments got function
 
 ```
 
